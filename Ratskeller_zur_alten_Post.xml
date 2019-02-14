@@ -1,0 +1,110 @@
+<speisekarte 
+        xmlns:xsd ="http://www.w3.org/2001/XMLSchema-instance" 
+				xsd:noNamespaceSchemaLocation='Speisekarte_Schema.xsd'>
+  <gerichte>
+      <vorspeisen>
+        <vorspeisePosition nummer="1">
+          <vorspeise>Brokkoli-Feta-Suppe</vorspeise>
+          <preis>150</preis>
+        </vorspeisePosition>
+        <vorspeisePosition nummer="2">
+          <vorspeise>Selleriesuppe mit Mettkloessen</vorspeise>
+          <preis>375</preis>
+        </vorspeisePosition>
+        <vorspeisePosition nummer="3">
+          <vorspeise>Spinatsalat mit Lachs und Pumpenickelknusper</vorspeise>
+          <preis>448</preis>
+        </vorspeisePosition>
+        <vorspeisePosition nummer="4">
+          <vorspeise>Steckruebenpueree mit Parmesan</vorspeise>
+          <preis>153</preis>
+        </vorspeisePosition>
+        <vorspeisePosition nummer="5">
+          <vorspeise>Teltower-Ruebchen-Suppe</vorspeise>
+          <preis>453</preis>
+        </vorspeisePosition>
+        <vorspeisePosition nummer="6">
+          <vorspeise>Milch Weissbrot</vorspeise>
+          <preis>985</preis>
+        </vorspeisePosition>
+      </vorspeisen>
+      <hauptspeisen>
+        <hauptspeisePosition nummer="1">
+          <hauptspeise>Schnitzel mit Beilage</hauptspeise>
+          <preis>765</preis>
+        </hauptspeisePosition>
+        <hauptspeisePosition nummer="2">
+          <hauptspeise>Schnitzel mit Pommes</hauptspeise>
+          <preis>123</preis>
+        </hauptspeisePosition>
+        <hauptspeisePosition nummer="3">
+          <hauptspeise>Bolognese</hauptspeise>
+          <preis>345</preis>
+        </hauptspeisePosition>
+        <hauptspeisePosition nummer="4">
+          <hauptspeise>Haehnchen mit Caesar Salat</hauptspeise>
+          <preis>266</preis>
+        </hauptspeisePosition>
+        <hauptspeisePosition nummer="5">
+          <hauptspeise>Salami Pizza</hauptspeise>
+          <preis>345</preis>
+        </hauptspeisePosition>
+        <hauptspeisePosition nummer="6">
+          <hauptspeise>Gebratener Fisch</hauptspeise>
+          <preis>779</preis>
+        </hauptspeisePosition>
+      </hauptspeisen>
+      <nachspeisen>
+        <nachspeisePosition nummer="1">
+          <nachspeise>Apfelstrudel</nachspeise>
+          <preis>369</preis>
+        </nachspeisePosition>
+        <nachspeisePosition nummer="2">
+          <nachspeise>Schwarzwaelder Kirschtorte</nachspeise>
+          <preis>367</preis>
+        </nachspeisePosition>
+        <nachspeisePosition nummer="3">
+          <nachspeise>Bayrische Creme</nachspeise>
+          <preis>238</preis>
+        </nachspeisePosition>
+        <nachspeisePosition nummer="4">
+          <nachspeise>Pudding mit Fruchtsauce</nachspeise>
+          <preis>789</preis>
+        </nachspeisePosition>
+        <nachspeisePosition nummer="5">
+          <nachspeise>Rote Gruetze</nachspeise>
+          <preis>259</preis>
+        </nachspeisePosition>
+        <nachspeisePosition nummer="6">
+          <nachspeise>Kaiserschmarrn</nachspeise>
+          <preis>369</preis>
+        </nachspeisePosition>
+      </nachspeisen>
+      <getraenke>
+        <getraenkPosition nummer="1">
+          <getraenk>Alster</getraenk>
+          <preis>853</preis>
+        </getraenkPosition>
+        <getraenkPosition nummer="2">
+          <getraenk>Cola</getraenk>
+          <preis>290</preis>
+        </getraenkPosition>
+        <getraenkPosition nummer="3">
+          <getraenk>Weizen</getraenk>
+          <preis>127</preis>
+        </getraenkPosition>
+        <getraenkPosition nummer="4">
+          <getraenk>Smoothie</getraenk>
+          <preis>863</preis>
+        </getraenkPosition>
+        <getraenkPosition nummer="5">
+          <getraenk>Weisswein</getraenk>
+          <preis>734</preis>
+        </getraenkPosition>
+        <getraenkPosition nummer="6">
+          <getraenk>Apfelschorle</getraenk>
+          <preis>645</preis>
+        </getraenkPosition>
+      </getraenke>
+    </gerichte>
+  </speisekarte>

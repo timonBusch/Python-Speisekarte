@@ -1,0 +1,74 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="speisekarte">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="gerichte">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="vorspeisen">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="vorspeisePosition" maxOccurs="unbounded" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element type="xsd:string" name="vorspeise"/>
+                          <xsd:element type="xsd:float" name="preis"/>
+                        </xsd:sequence>
+                        <xsd:attribute type="xsd:integer" name="nummer" use="required"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="hauptspeisen">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="hauptspeisePosition" maxOccurs="unbounded" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element type="xsd:string" name="hauptspeise"/>
+                          <xsd:element type="xsd:float" name="preis"/>
+                        </xsd:sequence>
+                        <xsd:attribute type="xsd:integer" name="nummer" use="required"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="nachspeisen">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="nachspeisePosition" maxOccurs="unbounded" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element type="xsd:string" name="nachspeise"/>
+                          <xsd:element type="xsd:float" name="preis"/>
+                        </xsd:sequence>
+                        <xsd:attribute type="xsd:integer" name="nummer" use="required"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="getraenke">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="getraenkPosition" maxOccurs="unbounded" minOccurs="0">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element type="xsd:string" name="getraenk"/>
+                          <xsd:element type="xsd:float" name="preis"/>
+                        </xsd:sequence>
+                        <xsd:attribute type="xsd:integer" name="nummer" use="required"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
